@@ -5,6 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import f1_score
 
+
 data = pd.read_csv('training.1600000.processed.noemoticon.csv', usecols=[0, 5], header=None, encoding='latin-1') 
 values = data[5]
 keys = data[0]
